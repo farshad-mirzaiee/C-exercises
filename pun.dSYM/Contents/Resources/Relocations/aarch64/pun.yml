@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/farshadmirzaiee/repos/C-exercises/pun'
+relocations:     []
+...
