@@ -2,6 +2,10 @@
 
 int main(void)
 {
-    string answer = scanf("What's your name? ");
-    printf("Hello, %s", answer);
+    char name[100];
+
+    printf("What's your name? ");
+    scanf("%99s", name);
+
+    printf("Hello, %s\n", name);
 }
