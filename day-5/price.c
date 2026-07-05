@@ -15,10 +15,10 @@ int main(void)
     scanf("%f", &amount);
 
     tax = amount * TAX_RATE / 100.0f;
-    printf("The tax is: %.2f\n", tax);
-
     total = amount + tax;
 
+    printf("Tax rate: %.2f%%\n", TAX_RATE);
+    printf("The tax is: %.2f\n", tax);
     printf("With tax added: %.2f\n", total);
     return 0;
 }
