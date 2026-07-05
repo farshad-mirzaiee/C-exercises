@@ -1,21 +1,22 @@
 /*
- * The program calculates the volume of a sphere that has a 10 meter Radius. 
+ * The program calculates the volume of a sphere with Radius input from user. 
  * Written by Farshad Mirzaiee
- * C Programming language Excercise
+ * C Programming language Exercise
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-    float pi, volume;
-    int radius;
+    const float PI = 3.1415f;
+    float radius, volume;
 
-    radius = 10;
-    pi = 3.1415;
+    printf("Enter the radius: ");
+    scanf("%f", &radius);
 
-    volume = (4.0f / 3.0f * pi) * radius * radius * radius;
+    volume = 4.0f / 3.0f * PI * radius * radius * radius;
 
-    printf("The Volume of the sphere is %.4f\n", volume);
+    printf("The Volume of Sphere is: %.1f\n", volume);
     return 0;
+    
 }
