@@ -1,3 +1,9 @@
+/*
+ * This program calculates the dimensional weight of a box
+ * Written by Farshad Mirzaiee
+ * C Programming language exercises
+ */
+
 #include <stdio.h>
 
 int main(void)
