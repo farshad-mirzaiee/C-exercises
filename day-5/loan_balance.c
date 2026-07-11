@@ -12,7 +12,7 @@
 int main(void)
 {
     float amount, interest_rate, payment; 
-    float balance, monthly_interest, interest;
+    float balance, monthly_interest;
     float balance_2, balance_3;
     
 
