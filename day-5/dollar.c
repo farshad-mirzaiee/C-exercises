@@ -5,15 +5,13 @@
  * By Farshad Mirzaiee
  */
 
- #include <stdio.h>
+#include <stdio.h>
 
- #define TWENTY_BILL 20
+#define TWENTY_BILL 20
 #define TEN_BILL 10
 #define FIVE_BILL 5
  
-
- int main(void)
- 
+int main(void)
  {
     int amount, remainder;
     int twenty, ten, five, one; 
