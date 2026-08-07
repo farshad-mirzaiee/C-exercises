@@ -1,8 +1,8 @@
 # C Programming: A Modern Approach
 
-This repository contains my solutions to the exercises and programming projects from **C Programming: A Modern Approach (2nd Edition)** by K. N. King.
+This repository contains my solutions to the exercises and programming projects from **C Programming: A Modern Approach (2nd Edition)** by **K. N. King**.
 
-I started this repository to document my progress as I work through the book and prepare for the 42 Piscine. My goal is not only to finish the exercises, but also to understand the concepts behind them and develop good programming habits from the beginning.
+I created this repository to document my progress as I work through the book from beginning to end. Rather than only collecting finished programs, I want this repository to reflect how my understanding of C develops over time. As I learn new concepts, I may revisit earlier programs to improve them and write cleaner code.
 
 ---
 
@@ -41,7 +41,7 @@ Run it:
 
 ## Progress
 
-This repository will continue to grow as I complete more chapters of the book.
+This repository is updated as I complete each chapter.
 
 - [x] Chapter 2 – C Fundamentals
 - [x] Chapter 3 – Formatted Input and Output
@@ -71,16 +71,11 @@ This repository will continue to grow as I complete more chapters of the book.
 
 ---
 
-## About This Repository
-
-All solutions in this repository are written by me while studying the book. As I learn new topics, I may revisit earlier programs to improve them and apply better coding practices.
-
----
-
 ## Reference
 
-**C Programming: A Modern Approach (2nd Edition)**  
-K. N. King
+**Book**
+
+*K. N. King — C Programming: A Modern Approach (2nd Edition)*
 
 ---
 
