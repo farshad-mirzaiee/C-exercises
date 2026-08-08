@@ -1,0 +1,24 @@
+/*
+ * Prompts user to enter two fractions, and calculates their sum.
+ * K.N King's C Programming: A Modern Approach
+ * Programming Project - Chapter 3 - Project 6
+ * By Farshad Mirzaiee
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+    int num1, denom1, num2, denom2;
+    int result_num, result_denom;
+
+    printf("Enter two fractions separated by a plus sign: ");
+    scanf("%d/%d + %d/%d", &num1, &denom1, &num2, &denom2);
+
+    result_num = num1 * denom2 + num2 * denom1;
+    result_denom = denom1 * denom2;
+
+    printf("The sum is %d/%d\n", result_num, result_denom);
+    
+    return 0;
+}
